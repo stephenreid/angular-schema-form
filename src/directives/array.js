@@ -91,6 +91,7 @@ angular.module('schemaForm').directive('sfArray', ['sfSelect', 'schemaForm', 'sf
               } else if (type === 'array') {
                 dflt = [];
               }
+              console.log(list);
               list.push(dflt);
             }
 
